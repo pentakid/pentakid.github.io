@@ -1,0 +1,40 @@
+/* p,h1 {
+    color: red;
+    width: 400px; /*sets the length in pixels of the single paragraphs -> new line when too long /
+    border: 1px solid black; /*creates a frame around the paragraph /
+  }
+  war ursprünglicher Test - wir machen anders weiter */
+  html {
+    font-size: 100px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+  h1 {
+      font-size: 100px;
+      text-align: justify;
+  }
+  p,li {
+      font-size: 60px;
+      line-height: 2;
+      letter-spacing: 1px;
+  }
+  html {
+      background-color: aqua;
+  }
+  body {
+    width: 4000px;
+    margin: 10px 400px;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 35px black;
+  }
+  img {
+    display: block; /*images are inline elements, therefore they have no margins etc as long as we 
+    don't make them to a block (like the body is)*/
+    margin: 0 auto;
+  }
